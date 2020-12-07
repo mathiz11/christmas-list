@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  color: #92DCE5;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+}
+
+img {
+  object-fit: fill;
+  max-width: 400px;
+  margin: 0 2rem;
+}
+
+.bg-dark-blue {
+  background-color: #2B303A;
+  justify-content: center;
+}
+
+.bg-grey {
+  background-color: #7C7C7C;
+  justify-content: center;
+}
+
+h3 {
+  color: #e3c0d3;
+  margin: 0;
+  font-size: 22px;
+}
+
+.gift-store {
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-brand {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.gift-price {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+a.gift-link {
+  text-decoration: none;
+  background-color: #D64933;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  width: 120px;
+  font-size: 14px;
+}
+
+.gift-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.text-center {
+  text-align: center;
+  background-color: #D64933;  
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
+}

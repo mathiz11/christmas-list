@@ -2,7 +2,7 @@
 
 * {
   font-family: "Noto Sans", sans-serif;
-  color: #92DCE5;
+  color: #92dce5;
 }
 
 body {
@@ -28,12 +28,12 @@ img {
 }
 
 .bg-dark-blue {
-  background-color: #2B303A;
+  background-color: #2b303a;
   justify-content: center;
 }
 
 .bg-grey {
-  background-color: #7C7C7C;
+  background-color: #7c7c7c;
   justify-content: center;
 }
 
@@ -60,7 +60,7 @@ h3 {
 
 a.gift-link {
   text-decoration: none;
-  background-color: #D64933;
+  background-color: #d64933;
   padding: 0.5rem 1rem;
   margin: 1rem 0;
   width: 120px;
@@ -76,7 +76,7 @@ a.gift-link {
 
 .text-center {
   text-align: center;
-  background-color: #D64933;  
+  background-color: #d64933;
 }
 
 h2 {
@@ -87,4 +87,13 @@ h2 {
 h1 {
   margin: 0;
   padding: 1rem;
+}
+
+@media (max-width: 800px) {
+  .gift.bg-grey {
+    flex-direction: column;
+  }
+  .gift.bg-dark-blue {
+    flex-direction: column-reverse;
+  }
 }

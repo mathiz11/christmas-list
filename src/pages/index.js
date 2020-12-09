@@ -29,6 +29,17 @@ export default function Home() {
     },
     {
       id: 3,
+      title: "Adaptateur Ordinateur",
+      imageLink:
+        "https://images-na.ssl-images-amazon.com/images/I/71WOA89WLZL._AC_SL1500_.jpg",
+      brand: "Amazon",
+      link:
+        "https://www.amazon.fr/uni-Blindage-am%C3%A9lior%C3%A9-Compatible-MacBook/dp/B081YQKRY3/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=hub+usb+c+uni&qid=1607539390&sr=8-4",
+      price: "29,99€",
+      isTake: false,
+    },
+    {
+      id: 4,
       title: "Pantalon Cargo - Kaki - Taille S",
       imageLink:
         "https://static.zara.net/photos///2020/I/0/2/p/0706/361/505/2/w/1140/0706361505_6_1_1.jpg?ts=1599725146870",
@@ -39,7 +50,7 @@ export default function Home() {
       isTake: true,
     },
     {
-      id: 4,
+      id: 5,
       title: "Tee shirt - Noir - Taille M",
       imageLink:
         "https://static.zara.net/photos///2020/I/0/2/p/9240/320/800/2/w/1140/9240320800_6_1_1.jpg?ts=1595238898154",

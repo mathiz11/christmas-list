@@ -27,6 +27,10 @@ img {
   margin: 0 2rem;
 }
 
+.disabled {
+  filter: blur(1px) grayscale(1);
+}
+
 .bg-dark-blue {
   background-color: #2b303a;
   justify-content: center;

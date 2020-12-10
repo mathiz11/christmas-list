@@ -47,7 +47,7 @@ export default function Home() {
       link:
         "https://www.zara.com/fr/fr/pantalon-battle-structur%C3%A9-p00706361.html?v1=64726857&v2=1547026",
       price: "49,95€",
-      isTake: true,
+      isTake: false,
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export default function Home() {
       link:
         "https://www.zara.com/fr/fr/t-shirt-basique-compact-p09240320.html?v1=86662663&v2=1546869",
       price: "12,95€",
-      isTake: true,
+      isTake: false,
     },
   ]
 
